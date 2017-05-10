@@ -1,2 +1,5 @@
-# Sql-Injection-Papers
-A solved paper on sql injection technique
+# Sql-Injection-Solved-Papers
+Solved Paper of Sql Injection practice paper
+Chapter: Basic Injection
+By: Suvadip Kar || Spider Mate
+
